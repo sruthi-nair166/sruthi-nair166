@@ -45,3 +45,6 @@
 ## 📊 GitHub Stats
 
 ![GitHub Stats](https://raw.githubusercontent.com/sruthi-nair166/github-stats-terminal-style/master/github_stats.svg)
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
