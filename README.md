@@ -15,15 +15,15 @@
 ## 🛠️ Tech Stack
 <p>
   <strong>💻 Frontend:</strong>
-  <img src="https://img.shields.io/badge/HTML-e34c26?style=flat&logo=html5&logoColor=white" style="vertical-align:middle;" />
+  <img src="https://img.shields.io/badge/HTML-e34c26?style=flat&logo=html5&logoColor=white" height="20" style="vertical-align:middle;" />
   &nbsp;•&nbsp;
-  <img src="https://img.shields.io/badge/CSS-563d7c?style=flat&logo=css3&logoColor=white" style="vertical-align:middle;" />
+  <img src="https://img.shields.io/badge/CSS-563d7c?style=flat&logo=css3&logoColor=white" height="20" style="vertical-align:middle;" />
   &nbsp;•&nbsp;
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" style="vertical-align:middle;" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" height="20" style="vertical-align:middle;" />
   &nbsp;•&nbsp;
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black" style="vertical-align:middle;" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black" height="20" style="vertical-align:middle;" />
   &nbsp;•&nbsp;
-  <img src="https://img.shields.io/badge/Responsive_Design-9C27B0?style=flat&logoColor=white" style="vertical-align:middle;" />
+  <img src="https://img.shields.io/badge/Responsive_Design-9C27B0?style=flat&logoColor=white" height="20" style="vertical-align:middle;" />
 </p>
 <br/>    
 🧰 **Tools:**  ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=fff) • ![image](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white) • ![Visual Studio](https://custom-icon-badges.demolab.com/badge/Visual%20Studio-5C2D91.svg?&logo=visualstudio&logoColor=white)<br/>
