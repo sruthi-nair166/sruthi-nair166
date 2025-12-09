@@ -44,4 +44,4 @@
 
 ## 📊 GitHub Stats
 
-![GitHub Stats](https://raw.githubusercontent.com/sruthi-nair166/github-stats-terminal-style/raw/main/github_stats.svg)
+![GitHub Stats](https://raw.githubusercontent.com/sruthi-nair166/github-stats-terminal-style/master/github_stats.svg)
