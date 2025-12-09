@@ -6,6 +6,8 @@
 
 # 👋 Hi there! 
 
+<img align="right" src="https://github.com/user-attachments/assets/2230d217-e6a3-4555-999d-88bba433f78f" width="180" />
+
 ## About Me
 <br/>
 💾 Exploring code, testing, and everything in between<br/>
@@ -16,8 +18,6 @@
 
 ## 🛠️ Tech Stack
 <br/>
-
-<img align="right" src="https://github.com/user-attachments/assets/2230d217-e6a3-4555-999d-88bba433f78f" width="180" />
 <p>
   <strong>💻 Frontend:</strong>
   <img src="https://img.shields.io/badge/HTML-e34c26?style=flat&logo=html5&logoColor=white" height="20" style="vertical-align:middle;" />
