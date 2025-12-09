@@ -15,6 +15,8 @@
 <br/>
 
 ## 🛠️ Tech Stack
+<br/>
+
 <img align="right" src="https://github.com/user-attachments/assets/2230d217-e6a3-4555-999d-88bba433f78f" width="180" />
 <p>
   <strong>💻 Frontend:</strong>
@@ -39,7 +41,6 @@
   <strong>🔍 Learning:</strong>
   <img src="https://img.shields.io/badge/Testing_Fundamentals-4CAF50?style=flat&logoColor=white" height="20" style="vertical-align:middle;" />
 </p>
-<br/>
 <br/>
 
 ## 📊 GitHub Stats
