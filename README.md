@@ -13,6 +13,7 @@
 🕹️  Slowly leveling up my skills one project at a time
 
 ## 🛠️ Tech Stack
+<img align="right" src="https://github.com/user-attachments/assets/2230d217-e6a3-4555-999d-88bba433f78f" width="150" />
 <p>
   <strong>💻 Frontend:</strong>
   <img src="https://img.shields.io/badge/HTML-e34c26?style=flat&logo=html5&logoColor=white" height="20" style="vertical-align:middle;" />
@@ -31,6 +32,7 @@
   <strong>🗄️ Backend / Database:</strong>
   <img src="https://img.shields.io/badge/Firebase-FF9800?logo=Firebase&logoColor=white" height="20" style="vertical-align:middle;" />
 </p>
+
 <p>
   <strong>🔍 Learning:</strong>
   <img src="https://img.shields.io/badge/Testing_Fundamentals-4CAF50?style=flat&logoColor=white" height="20" style="vertical-align:middle;" />
