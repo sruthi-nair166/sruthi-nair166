@@ -1,0 +1,18 @@
+name: WakaTime Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # runs daily at midnight UTC
+  workflow_dispatch:      # allows manual triggering
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: athul/waka-readme@master
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }} # required
+          TIME_RANGE: all_time        # show lifetime stats
+          SHOW_TITLE: true            # optional, shows title above stats
+          SHOW_TOTAL: true            # optional, shows total coding time
+          LANG_COUNT: 5               # optional, top 5 languages
