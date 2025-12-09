@@ -13,7 +13,7 @@
 🕹️  Slowly leveling up my skills one project at a time
 
 ## 🛠️ Tech Stack
-💻 **Frontend:**  ![image](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) • CSS • JavaScript • React • Responsive design<br/>    
+💻 **Frontend:**  ![image](https://img.shields.io/badge/HTML-e34c26?style=flat&logo=html5&logoColor=white) • CSS • JavaScript • React • Responsive design<br/>    
 🧰 **Tools:**  Git • GitHub • VS Code<br/>
 🗄️ **Backend / Database:**  Firebase<br/>
 🔍 **Learning:**  Testing fundamentals  <br/>
