@@ -43,3 +43,5 @@
 <br/>
 
 ## 📊 GitHub Stats
+
+![github_stats](https://github.com/user-attachments/assets/275839f1-9217-4dc0-b0f6-9620f647cc52)
