@@ -26,6 +26,22 @@
   <img src="https://img.shields.io/badge/Responsive_Design-9C27B0?style=flat&logoColor=white" height="20" style="vertical-align:middle;" />
 </p>
 <br/>    
-🧰 **Tools:**  ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=fff) • ![image](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white) • ![Visual Studio](https://custom-icon-badges.demolab.com/badge/Visual%20Studio-5C2D91.svg?&logo=visualstudio&logoColor=white)<br/>
-🗄️ **Backend / Database:**  ![Firebase](https://img.shields.io/badge/Firebase-FF9800?logo=Firebase&logoColor=white)<br/>
-🔍 **Learning:**  ![Testing](https://img.shields.io/badge/Testing_Fundamentals-4CAF50?style=flat&logoColor=white)<br/>
+<p>
+  <strong>🧰 Tools:</strong>
+  <img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=fff" height="20" style="vertical-align:middle;" />
+  &nbsp;•&nbsp;
+  <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" height="20" style="vertical-align:middle;" />
+  &nbsp;•&nbsp;
+  <img src="https://custom-icon-badges.demolab.com/badge/Visual%20Studio-5C2D91.svg?&logo=visualstudio&logoColor=white" height="20" style="vertical-align:middle;" />
+  &nbsp;•&nbsp;
+</p>
+<br/>
+<p>
+  <strong>🗄️ Backend / Database:</strong>
+  <img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=fff" height="20" style="vertical-align:middle;" />
+</p>
+<br/>
+<p>
+  <strong>🔍 Learning:</strong>
+  <img src="https://img.shields.io/badge/Testing_Fundamentals-4CAF50?style=flat&logoColor=white" height="20" style="vertical-align:middle;" />
+</p>
