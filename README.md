@@ -21,19 +21,16 @@
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black" height="20" style="vertical-align:middle;" />
   <img src="https://img.shields.io/badge/Responsive_Design-9C27B0?style=flat&logoColor=white" height="20" style="vertical-align:middle;" />
 </p>
-<br/>    
 <p>
   <strong>🧰 Tools:</strong><br/>
   <img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=fff" height="20" style="vertical-align:middle;" />
   <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" height="20" style="vertical-align:middle;" />
   <img src="https://custom-icon-badges.demolab.com/badge/Visual%20Studio-5C2D91.svg?&logo=visualstudio&logoColor=white" height="20" style="vertical-align:middle;" />
 </p>
-<br/>
 <p>
   <strong>🗄️ Backend / Database:</strong><br/>
   <img src="https://img.shields.io/badge/Firebase-FF9800?logo=Firebase&logoColor=white" height="20" style="vertical-align:middle;" />
 </p>
-<br/>
 <p>
   <strong>🔍 Learning:</strong><br/>
   <img src="https://img.shields.io/badge/Testing_Fundamentals-4CAF50?style=flat&logoColor=white" height="20" style="vertical-align:middle;" />
