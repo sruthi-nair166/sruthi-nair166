@@ -9,7 +9,9 @@
 
 ## About Me
 
-💾 Exploring code, testing, and everything in between  🎮 Lover of clean UI, organized layouts, and tiny worlds  🕹️  Slowly leveling up my skills one project at a time
+💾 Exploring code, testing, and everything in between<br/>
+🎮 Lover of clean UI, organized layouts, and tiny worlds<br/>
+🕹️  Slowly leveling up my skills one project at a time
 
 ## 🛠️ Tech Stack
 - **Frontend:** HTML • CSS • JavaScript • React • Responsive design    
