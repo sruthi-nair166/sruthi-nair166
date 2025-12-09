@@ -12,6 +12,7 @@
 🎮 Lover of clean UI, organized layouts, and tiny worlds<br/>
 🕹️  Slowly leveling up my skills one project at a time
 <br/>
+<br/>
 
 ## 🛠️ Tech Stack
 <img align="right" src="https://github.com/user-attachments/assets/2230d217-e6a3-4555-999d-88bba433f78f" width="180" />
@@ -38,5 +39,7 @@
   <strong>🔍 Learning:</strong>
   <img src="https://img.shields.io/badge/Testing_Fundamentals-4CAF50?style=flat&logoColor=white" height="20" style="vertical-align:middle;" />
 </p>
+<br/>
+<br/>
 
 ## 📊 GitHub Stats
