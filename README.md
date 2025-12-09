@@ -15,7 +15,7 @@
 <br/>
 
 ## 🛠️ Tech Stack
-<img align="right" src="https://github.com/user-attachments/assets/2230d217-e6a3-4555-999d-88bba433f78f" width="180" />
+<img align="right" src="https://github.com/user-attachments/assets/2230d217-e6a3-4555-999d-88bba433f78f" width="200" />
 <br/>
 <p>
   <strong>💻 Frontend:</strong>
