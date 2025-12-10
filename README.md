@@ -46,7 +46,7 @@
 
 <div style="display: flex; align-items: center; gap: 20px;">
   <img src="https://raw.githubusercontent.com/sruthi-nair166/github-stats-terminal-style/master/github_stats.svg" width="50%" />
-  <div style="display: flex; align-items: center; gap: 20px;">
+  <div style="flex: 1 1 0; min-width: 300px;">
   <!--START_SECTION:waka-->
 
 ```txt
