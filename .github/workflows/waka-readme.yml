@@ -34,7 +34,7 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-        run: npm ci
+        run: npm install
         # This expects package.json in repo root (we'll commit one below). If you prefer, you can `npm install markdown-it` in place:
         # run: npm install markdown-it
 
