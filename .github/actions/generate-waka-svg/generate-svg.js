@@ -1,57 +1,62 @@
-const fs = require('fs');
-const path = require('path');
-const MarkdownIt = require('markdown-it');
+const fs = require("fs");
 
-const md = new MarkdownIt({
-  html: false,
-  breaks: false,
-});
+// Replace this with your actual WakaTime JSON
+const wakaData = {
+  data: {
+    languages: [
+      { name: "JavaScript", total_seconds: 4500 },
+      { name: "HTML", total_seconds: 2700 },
+      { name: "CSS", total_seconds: 1800 },
+      { name: "Python", total_seconds: 900 },
+    ],
+    human_readable_total: "3 hrs 15 mins",
+    human_readable_range: "From: 01 Dec 2025 - To: 10 Dec 2025"
+  }
+};
 
-const mdFile = path.join(process.cwd(), 'waka.md');
-if (!fs.existsSync(mdFile)) {
-  console.error('waka.md not found — exiting');
-  process.exit(1);
-}
-const content = fs.readFileSync(mdFile, 'utf-8').trim();
-
-const width = 700;
-const bg = '#0d1117';       // dark background (GitHub dark theme friendly)
-const textColor = '#c9d1d9'; // light grey-ish (visible in dark or light)
-
-function escapeXml(str) {
-  return str.replace(/[<>&"]/g, c => {
-    switch(c) {
-      case '<': return '&lt;';
-      case '>': return '&gt;';
-      case '&': return '&amp;';
-      case '"': return '&quot;';
-    }
-  });
-}
-
-// If content is empty or only default 0 secs message
-if (!content || /total time:\s*0\s*secs/i.test(content)) {
-  const fallback = 'No coding data yet ✨';
-  const svg = `<?xml version="1.0" encoding="UTF-8"?>
-<svg width="${width}" height="200" xmlns="http://www.w3.org/2000/svg">
-  <rect width="100%" height="100%" fill="${bg}"/>
-  <text x="20" y="50" fill="${textColor}" font-family="monospace" font-size="24">${fallback}</text>
-</svg>`;
-  fs.writeFileSync('waka.svg', svg, 'utf8');
+// Exit early if no data
+if (!wakaData.data || !wakaData.data.languages || wakaData.data.languages.length === 0) {
+  console.log("No WakaTime activity. SVG will not be generated.");
   process.exit(0);
 }
 
-// Render markdown to HTML-like but we’ll wrap in <pre> to preserve ascii formatting
-const lines = content.split(/\r?\n/).map(escapeXml).join('\n');
+// Top 5 languages
+const languages = wakaData.data.languages.slice(0, 5);
 
-const svg = `<?xml version="1.0" encoding="UTF-8"?>
-<svg width="${width}" xmlns="http://www.w3.org/2000/svg">
-  <rect width="100%" height="100%" fill="${bg}"/>
-  <foreignObject x="10" y="10" width="${width - 20}" height="2000">
-    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:monospace; white-space:pre; color:${textColor}; line-height:1.2;">
-${lines}
-    </div>
-  </foreignObject>
-</svg>`;
-fs.writeFileSync('waka.svg', svg, 'utf8');
-console.log('waka.svg updated');
+// SVG layout
+const barMaxWidth = 200;
+const svgWidth = 400;
+const svgHeight = 40 + languages.length * 30 + 20;
+const paddingLeft = 10;
+
+const maxSeconds = Math.max(...languages.map(l => l.total_seconds));
+
+let svgContent = `
+<svg width="${svgWidth}" height="${svgHeight}" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bar { fill: #D326FF; }
+    .text { font-family: monospace; font-size: 14px; fill: #000; }
+  </style>
+`;
+
+// Date range at the top
+svgContent += `<text x="${paddingLeft}" y="20" class="text">${wakaData.data.human_readable_range}</text>`;
+
+// Draw bars
+languages.forEach((lang, i) => {
+  const width = Math.round((lang.total_seconds / maxSeconds) * barMaxWidth);
+  const y = 40 + i * 30;
+  svgContent += `
+    <text x="${paddingLeft}" y="${y}" class="text">${lang.name} - ${Math.round(lang.total_seconds/3600)} hrs</text>
+    <rect x="150" y="${y-12}" width="${width}" height="12" class="bar"/>
+  `;
+});
+
+// Total time at the bottom
+svgContent += `<text x="${paddingLeft}" y="${svgHeight - 10}" class="text">Total: ${wakaData.data.human_readable_total}</text>`;
+
+svgContent += `</svg>`;
+
+// Save SVG
+fs.writeFileSync("waka.svg", svgContent);
+console.log("waka.svg generated successfully!");
