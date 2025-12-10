@@ -46,17 +46,19 @@
 
 <div style="display: flex; align-items: center; gap: 20px;">
   <img src="https://raw.githubusercontent.com/sruthi-nair166/github-stats-terminal-style/master/github_stats.svg" width="50%" />
+  <div style="display: flex; align-items: center; gap: 20px;">
   <!--START_SECTION:waka-->
 
-```txt
-From: 09 December 2025 - To: 09 December 2025
+  ```txt
+  From: 09 December 2025 - To: 09 December 2025
 
-Total Time: 0 secs
+  Total Time: 0 secs
 
-No activity tracked
-```
+  No activity tracked
+  ```
 
-<!--END_SECTION:waka-->
+  <!--END_SECTION:waka-->
+  </div>
 </div>
 
 
