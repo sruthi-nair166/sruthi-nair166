@@ -1,47 +1,57 @@
-// .github/actions/generate-waka-svg/generate-svg.js
 const fs = require('fs');
 const path = require('path');
 const MarkdownIt = require('markdown-it');
 
 const md = new MarkdownIt({
-  html: true,
-  breaks: true,
+  html: false,
+  breaks: false,
 });
 
-const WAKA_MD = path.join(process.cwd(), 'waka.md');
-const OUT_SVG = path.join(process.cwd(), 'waka.svg');
-
-// read markdown (if missing, bail)
-if (!fs.existsSync(WAKA_MD)) {
-  console.error('waka.md not found, exiting.');
+const mdFile = path.join(process.cwd(), 'waka.md');
+if (!fs.existsSync(mdFile)) {
+  console.error('waka.md not found — exiting');
   process.exit(1);
 }
+const content = fs.readFileSync(mdFile, 'utf-8').trim();
 
-const mdContent = fs.readFileSync(WAKA_MD, 'utf8').trim();
-const html = md.render(mdContent);
+const width = 700;
+const bg = '#0d1117';       // dark background (GitHub dark theme friendly)
+const textColor = '#c9d1d9'; // light grey-ish (visible in dark or light)
 
-// basic inline CSS: tweak fonts, sizes, widths here
-const width = 700; // target SVG width in px — tweak to fit your layout
-const fontFamily = 'Inter, Roboto, -apple-system, system-ui, "Segoe UI", "Helvetica Neue", Arial';
+function escapeXml(str) {
+  return str.replace(/[<>&"]/g, c => {
+    switch(c) {
+      case '<': return '&lt;';
+      case '>': return '&gt;';
+      case '&': return '&amp;';
+      case '"': return '&quot;';
+    }
+  });
+}
+
+// If content is empty or only default 0 secs message
+if (!content || /total time:\s*0\s*secs/i.test(content)) {
+  const fallback = 'No coding data yet ✨';
+  const svg = `<?xml version="1.0" encoding="UTF-8"?>
+<svg width="${width}" height="200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="${bg}"/>
+  <text x="20" y="50" fill="${textColor}" font-family="monospace" font-size="24">${fallback}</text>
+</svg>`;
+  fs.writeFileSync('waka.svg', svg, 'utf8');
+  process.exit(0);
+}
+
+// Render markdown to HTML-like but we’ll wrap in <pre> to preserve ascii formatting
+const lines = content.split(/\r?\n/).map(escapeXml).join('\n');
 
 const svg = `<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="${width}" viewBox="0 0 ${width} 1000">
-  <style>
-    .md-body { font-family: ${fontFamily}; font-size:14px; color: #222; }
-    .md-body pre { white-space: pre-wrap; word-break: break-word; font-family: monospace; font-size:13px; }
-    .md-body code { font-family: monospace; font-size:13px; }
-    /* tweak table styles if waka outputs tables */
-    .md-body table { border-collapse: collapse; }
-    .md-body td, .md-body th { padding:4px 6px; }
-  </style>
-
-  <foreignObject x="0" y="0" width="${width}" height="1000">
-    <div xmlns="http://www.w3.org/1999/xhtml" class="md-body">
-      ${html}
+<svg width="${width}" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="${bg}"/>
+  <foreignObject x="10" y="10" width="${width - 20}" height="2000">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:monospace; white-space:pre; color:${textColor}; line-height:1.2;">
+${lines}
     </div>
   </foreignObject>
 </svg>`;
-
-// Estimate height by counting lines; crude but okay — we'll let it be large enough and GitHub will render trimmed visuals.
-fs.writeFileSync(OUT_SVG, svg);
-console.log('waka.svg written');
+fs.writeFileSync('waka.svg', svg, 'utf8');
+console.log('waka.svg updated');
