@@ -44,9 +44,9 @@
 
 ## 📊 GitHub Stats
 
-![GitHub Stats](https://raw.githubusercontent.com/sruthi-nair166/github-stats-terminal-style/master/github_stats.svg)
-
-<!--START_SECTION:waka-->
+<div style="display: flex; align-items: center; gap: 20px;">
+  <img src="https://raw.githubusercontent.com/sruthi-nair166/github-stats-terminal-style/master/github_stats.svg" width="50%" />
+  <!--START_SECTION:waka-->
 
 ```txt
 From: 09 December 2025 - To: 09 December 2025
@@ -57,3 +57,6 @@ No activity tracked
 ```
 
 <!--END_SECTION:waka-->
+</div>
+
+
