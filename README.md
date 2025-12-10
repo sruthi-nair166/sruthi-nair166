@@ -47,8 +47,8 @@
 ## 📊 GitHub Stats
 
 <div style="display: flex; gap: 18px; flex-wrap: wrap;">
-  <img src="https://raw.githubusercontent.com/sruthi-nair166/github-stats-terminal-style/master/github_stats.svg" height="400px" />
-  <img src="https://raw.githubusercontent.com/sruthi-nair166/sruthi-nair166/main/waka.svg" height="400px" alt="WakaTime stats" />  
+  <img src="https://raw.githubusercontent.com/sruthi-nair166/github-stats-terminal-style/master/github_stats.svg" width="50%" />
+  <img src="https://raw.githubusercontent.com/sruthi-nair166/sruthi-nair166/main/waka.svg" width="50%" alt="WakaTime stats" />  
 </div>
 
 
@@ -61,4 +61,5 @@
 
 <img src="https://github.com/user-attachments/assets/13ef8dfa-af08-4129-addc-b15c1c8158d3" width="100%" />
 
+> "May your coffee stay warm☕ and your commits bug-free🖥️."
 
