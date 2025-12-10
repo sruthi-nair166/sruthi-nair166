@@ -42,8 +42,8 @@ const topLanguages = waka.languages
   .slice(0, 5);
 
 // Basic measurements and layout
-const width = 600;
-const leftColWidth = 260; // space reserved for language name + time text
+const width = 500;
+const leftColWidth = 200; // space reserved for language name + time text
 const barAreaWidth = width - leftColWidth - 20; // 20px right padding
 const barCharCount = 28; // number of block chars per bar (█/▒)
 const lineHeight = 22;
