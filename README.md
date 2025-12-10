@@ -45,8 +45,8 @@
 ## 📊 GitHub Stats
 
 <div style="display: flex; gap: 18px; flex-wrap: wrap;">
-  <img src="https://raw.githubusercontent.com/sruthi-nair166/github-stats-terminal-style/master/github_stats.svg" width="400px" />
-  <img src="https://raw.githubusercontent.com/sruthi-nair166/sruthi-nair166/main/waka.svg" width="420" alt="WakaTime stats" />  
+  <img src="https://raw.githubusercontent.com/sruthi-nair166/github-stats-terminal-style/master/github_stats.svg" height="400px" />
+  <img src="https://raw.githubusercontent.com/sruthi-nair166/sruthi-nair166/main/waka.svg" height="400px" alt="WakaTime stats" />  
 </div>
 
 
