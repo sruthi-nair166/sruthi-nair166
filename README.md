@@ -62,6 +62,7 @@
 <img src="https://github.com/user-attachments/assets/13ef8dfa-af08-4129-addc-b15c1c8158d3" width="100%" />
 
 <p align="center">
-  <em>"May your coffee stay warm</em>☕ <em>and your commits bug-free</em>🖥️<em>."</em>
+  <em style="color: grey">"Thank you for visiting.</em> 
+  <em style="color: grey">May your coffee stay warm</em>☕ <em style="color: grey">and your commits bug-free</em>🖥️<em style="color: grey">."</em>
 </p>
 
