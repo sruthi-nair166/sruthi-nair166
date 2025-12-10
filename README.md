@@ -46,11 +46,8 @@
 
 ## 📊 GitHub Stats
 
-<div style="display: flex; flex-wrap: wrap;">
-  <img src="https://raw.githubusercontent.com/sruthi-nair166/github-stats-terminal-style/master/github_stats.svg" width="50%" />
-  <img src="https://raw.githubusercontent.com/sruthi-nair166/sruthi-nair166/main/waka.svg" width="50%" alt="WakaTime stats" />  
-</div>
-
+<img src="https://raw.githubusercontent.com/sruthi-nair166/github-stats-terminal-style/master/github_stats.svg" width="45%" />
+<img src="https://raw.githubusercontent.com/sruthi-nair166/sruthi-nair166/main/waka.svg" width="45%" alt="WakaTime stats" />  
 
 ## ✉️ Contact
 <br/>
