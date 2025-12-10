@@ -56,4 +56,7 @@
 <br/>
 
 📮 **Email:** [![Gmail](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white)](https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRttWRbVMkGqMZzLLfWtJNzPkZrxCsMHCqkFBmszrflSnmqcZwDlPSbfqgHgtTHRMsxPkRl) <br />
-🌐 **Linkedin:** [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sruthi-v-nair-5b5a09191/)
+🌐 **Linkedin:** [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sruthi-v-nair-5b5a09191/) <br/>
+
+![Pixelated Animated Nostalgic 90s Illustrations Discord Profile Banner](https://github.com/user-attachments/assets/64e3ef6b-1b68-48d1-8bbb-1c472303270a)
+
