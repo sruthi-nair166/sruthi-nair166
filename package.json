@@ -1,0 +1,8 @@
+{
+  "name": "waka-svg-gen",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "markdown-it": "^13.0.1"
+  }
+}
