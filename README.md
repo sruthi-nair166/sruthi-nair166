@@ -52,3 +52,7 @@
 </div>
 
 
+## ✉️ Contact
+<br/>
+📮 **Email:** [![Gmail](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white)](mailto:sruthivnair78@gmail.com)<br/>
+🌐 **Linkedin:** [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sruthi-v-nair-5b5a09191/)
