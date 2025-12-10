@@ -51,9 +51,21 @@ const paddingTop = 60;
 const barHeight = 14;
 const barSpacing = 12;
 
-const startDate = waka.start ? new Date(waka.start).toLocaleDateString() : '';
-const endDate = waka.end ? new Date(waka.end).toLocaleDateString() : '';
-const humanRange = waka.human_readable_range || `From: ${startDate} - To: ${endDate}`;
+// --- replace these lines ---
+const startDate = waka.start ? new Date(waka.start) : null;
+const endDate = waka.end ? new Date(waka.end) : null;
+// old humanRange
+// const humanRange = waka.human_readable_range || `From: ${startDate} - To: ${endDate}`;
+
+// --- replace with fixed format ---
+function formatDate(d) {
+  if (!d) return '';
+  const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+  return `${d.getDate().toString().padStart(2,'0')} ${months[d.getMonth()]} ${d.getFullYear()}`;
+}
+
+const humanRange = startDate && endDate ? `From: ${formatDate(startDate)} - To: ${formatDate(endDate)}` : '';
+
 const humanTotal = waka.human_readable_total || (() => {
   const secs = waka.total_seconds || 0;
   const hrs = Math.floor(secs / 3600);
