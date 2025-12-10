@@ -9,7 +9,7 @@ jobs:
   build-waka-svg:
     runs-on: ubuntu-latest
     permissions:
-      contents: write   # so the workflow can commit files
+      contents: write
 
     steps:
       - name: Checkout repository
@@ -17,15 +17,12 @@ jobs:
         with:
           fetch-depth: 0
 
+      # ⬇⬇⬇ REAL JSON FETCH — FIXED
       - name: Fetch WakaTime JSON
-        uses: athul/waka-readme@master
-        with:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          TIME_RANGE: all_time
-          TARGET_PATH: waka.json
-          SHOW_TITLE: false
-          SHOW_TOTAL: false
-          LANG_COUNT: 5
+        run: |
+          curl -s "https://wakatime.com/api/v1/users/current/stats/all_time?api_key=${{ secrets.WAKATIME_API_KEY }}" > waka.json
+          echo "Downloaded waka.json:"
+          cat waka.json
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
