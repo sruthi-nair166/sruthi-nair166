@@ -26,6 +26,7 @@ jobs:
           SHOW_TOTAL: true
           LANG_COUNT: 5
           REPOSITORY: sruthi-nair166/sruthi-nair166
+          TARGET_BRANCH: main  
 
       - name: Setup Node
         uses: actions/setup-node@v4
