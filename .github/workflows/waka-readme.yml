@@ -10,41 +10,38 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write   # so the workflow can commit files
+
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Run waka-readme to write waka.md
+      - name: Fetch WakaTime JSON
         uses: athul/waka-readme@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           TIME_RANGE: all_time
-          TARGET_PATH: waka.md     # <-- write markdown output here
-          SHOW_TITLE: true
-          SHOW_TOTAL: true
+          TARGET_PATH: waka.json
+          SHOW_TITLE: false
+          SHOW_TOTAL: false
           LANG_COUNT: 5
-          REPOSITORY: sruthi-nair166/sruthi-nair166
-          TARGET_BRANCH: main  
 
-      - name: Setup Node
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
       - name: Install dependencies
         run: npm install
-        # This expects package.json in repo root (we'll commit one below). If you prefer, you can `npm install markdown-it` in place:
-        # run: npm install markdown-it
 
-      - name: Generate waka.svg from waka.md
+      - name: Generate waka.svg from JSON
         run: node .github/actions/generate-waka-svg/generate-svg.js
 
-      - name: Commit and push waka.md + waka.svg
+      - name: Commit and push SVG
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "actions@github.com"
-          git add waka.md waka.svg
-          git commit -m "chore(waka): update waka.md + waka.svg" || echo "no changes to commit"
+          git add waka.svg
+          git commit -m "chore: update WakaTime SVG" || echo "No changes to commit"
           git push
