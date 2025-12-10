@@ -117,7 +117,7 @@ topLanguages.forEach((lang, i) => {
   const percentX = barX + barAreaWidth + 6; // percent to the far right
 
   // background rectangle for bar area (slightly lighter than black)
-  svgBody += `  <rect x="${barX}" y="${yTop + 6}" width="${barAreaWidth}" height="${barHeight}" fill="#111" rx="3" ry="3"/>\n`;
+  svgBody += `  <rect x="${barX}" y="${yTop + 6}" width="${barAreaWidth}" height="${barHeight}" fill="#0d1117" rx="3" ry="3"/>\n`;
 
   // language name and time text (monospace)
   svgBody += `  <text x="${nameX}" y="${yTop + 16}" font-size="14" fill="#FFF">${escapeXml(padRight(name, 18))}</text>\n`;
