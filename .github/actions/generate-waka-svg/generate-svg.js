@@ -1,20 +1,6 @@
 const fs = require('fs');
 const path = require('path');
 
-// Replace this with your actual WakaTime JSON
-const wakaData = {
-  data: {
-    languages: [
-      { name: "JavaScript", total_seconds: 4500 },
-      { name: "HTML", total_seconds: 2700 },
-      { name: "CSS", total_seconds: 1800 },
-      { name: "Python", total_seconds: 900 },
-    ],
-    human_readable_total: "3 hrs 15 mins",
-    human_readable_range: "From: 01 Dec 2025 - To: 10 Dec 2025"
-  }
-};
-
 const WAKA_JSON_PATH = path.join(process.cwd(), 'waka.json');
 const OUTPUT_SVG_PATH = path.join(process.cwd(), 'waka.svg');
 
