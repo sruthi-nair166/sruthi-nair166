@@ -112,7 +112,7 @@ topLanguages.forEach((lang, i) => {
   // positions
   const textX = 0;
   const nameX = textX;
-  const timeX = 140; // adjust so time sits after name
+  const timeX = 100; // adjust so time sits after name
   const barX = leftColWidth; // where the bar area starts
   const percentX = barX + barAreaWidth + 6; // percent to the far right
 
