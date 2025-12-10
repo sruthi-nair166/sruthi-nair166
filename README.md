@@ -44,9 +44,9 @@
 
 ## 📊 GitHub Stats
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 18px; align-items: flex-start; flex-wrap: wrap;">
   <img src="https://raw.githubusercontent.com/sruthi-nair166/github-stats-terminal-style/master/github_stats.svg" width="400px" />
-  <div style="max-width: 400px; overflow-x: auto;">
+  <div style="width: 420px; flex: 0 0 420px; white-space: pre-wrap; word-break: break-word; overflow-wrap: anywhere;">
   <!--START_SECTION:waka-->
 
 ```txt
