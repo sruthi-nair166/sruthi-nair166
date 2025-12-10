@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="700" viewBox="0 0 700 1000">
+  <style>
+    .md-body { font-family: Inter, Roboto, -apple-system, system-ui, "Segoe UI", "Helvetica Neue", Arial; font-size:14px; color: #222; }
+    .md-body pre { white-space: pre-wrap; word-break: break-word; font-family: monospace; font-size:13px; }
+    .md-body code { font-family: monospace; font-size:13px; }
+    /* tweak table styles if waka outputs tables */
+    .md-body table { border-collapse: collapse; }
+    .md-body td, .md-body th { padding:4px 6px; }
+  </style>
+
+  <foreignObject x="0" y="0" width="700" height="1000">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="md-body">
+      
+    </div>
+  </foreignObject>
+</svg>
