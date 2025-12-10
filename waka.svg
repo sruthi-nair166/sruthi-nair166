@@ -11,7 +11,13 @@
 
   <foreignObject x="0" y="0" width="700" height="1000">
     <div xmlns="http://www.w3.org/1999/xhtml" class="md-body">
-      
+      <h3>Test WakaTime Data</h3>
+<ul>
+<li>JavaScript: 3 hrs</li>
+<li>HTML: 1 hr</li>
+<li>CSS: 30 mins</li>
+</ul>
+
     </div>
   </foreignObject>
 </svg>
