@@ -1,18 +1,48 @@
-name: WakaTime Stats
+name: WakaTime -> SVG
 
 on:
+  workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'  # runs daily at midnight UTC
-  workflow_dispatch:      # allows manual triggering
+    - cron: '0 0 * * *'  # daily at midnight UTC
 
 jobs:
-  update-readme:
+  build-waka-svg:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write   # so the workflow can commit files
     steps:
-      - uses: athul/waka-readme@master
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }} # required
-          TIME_RANGE: all_time        # show lifetime stats
-          SHOW_TITLE: true            # optional, shows title above stats
-          SHOW_TOTAL: true            # optional, shows total coding time
-          LANG_COUNT: 5               # optional, top 5 languages
+          fetch-depth: 0
+
+      - name: Run waka-readme to write waka.md
+        uses: athul/waka-readme@master
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          TIME_RANGE: all_time
+          TARGET_PATH: waka.md     # <-- write markdown output here
+          SHOW_TITLE: true
+          SHOW_TOTAL: true
+          LANG_COUNT: 10
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm ci
+        # This expects package.json in repo root (we'll commit one below). If you prefer, you can `npm install markdown-it` in place:
+        # run: npm install markdown-it
+
+      - name: Generate waka.svg from waka.md
+        run: node .github/actions/generate-waka-svg/generate-svg.js
+
+      - name: Commit and push waka.md + waka.svg
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "actions@github.com"
+          git add waka.md waka.svg
+          git commit -m "chore(waka): update waka.md + waka.svg" || echo "no changes to commit"
+          git push
