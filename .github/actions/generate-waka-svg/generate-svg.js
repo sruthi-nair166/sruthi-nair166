@@ -43,7 +43,7 @@ const topLanguages = waka.languages
 
 // Basic measurements and layout
 const width = 500;
-const leftColWidth = 200; // space reserved for language name + time text
+const leftColWidth = 180; // space reserved for language name + time text
 const barAreaWidth = width - leftColWidth - 50; // 20px right padding
 const barCharCount = 28; // number of block chars per bar (█/▒)
 const lineHeight = 22;
@@ -112,7 +112,7 @@ topLanguages.forEach((lang, i) => {
   // positions
   const textX = 0;
   const nameX = textX;
-  const timeX = 100; // adjust so time sits after name
+  const timeX = 120; // adjust so time sits after name
   const barX = leftColWidth; // where the bar area starts
   const percentX = barX + barAreaWidth + 6; // percent to the far right
 
