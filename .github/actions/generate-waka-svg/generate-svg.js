@@ -76,7 +76,7 @@ const humanTotal = waka.human_readable_total || (() => {
 const contentHeight = paddingTop + topLanguages.length * (lineHeight + barSpacing) + 30;
 const svgHeader = `<?xml version="1.0" encoding="UTF-8"?>\n` +
   `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${contentHeight}" font-family="monospace">\n` +
-  `  <rect width="100%" height="100%" fill="#000" />\n` + // black background
+  `  <rect width="100%" height="100%" fill="#0d1117" />\n` + // black background
   `  <g fill="#FFF" font-size="14">\n` +
   `    <text x="0" y="22" font-weight="700">From: ${escapeXml(humanRange.replace(/^From: */i, ''))}</text>\n` + // Date line
   `    <text x="0" y="44">Total Time: ${escapeXml(humanTotal)}</text>\n` +
