@@ -7,12 +7,12 @@
   </g>
   <rect x="200" y="66" width="250" height="14" fill="#0d1117" rx="3" ry="3"/>
   <text x="0" y="76" font-size="14" fill="#FFF">JavaScript        </text>
-  <text x="140" y="76" font-size="14" fill="#FFF">8 mins</text>
+  <text x="100" y="76" font-size="14" fill="#FFF">8 mins</text>
   <text x="206" y="76" font-size="14" fill="#FFF">████████████████░░░░░░░░░░░░</text>
   <text x="456" y="76" font-size="14" fill="#FFF">56.14 %</text>
   <rect x="200" y="100" width="250" height="14" fill="#0d1117" rx="3" ry="3"/>
   <text x="0" y="110" font-size="14" fill="#FFF">HTML              </text>
-  <text x="140" y="110" font-size="14" fill="#FFF">6 mins</text>
+  <text x="100" y="110" font-size="14" fill="#FFF">6 mins</text>
   <text x="206" y="110" font-size="14" fill="#FFF">████████████░░░░░░░░░░░░░░░░</text>
   <text x="456" y="110" font-size="14" fill="#FFF">43.86 %</text>
 </svg>
