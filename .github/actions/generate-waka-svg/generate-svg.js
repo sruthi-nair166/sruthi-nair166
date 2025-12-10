@@ -5,16 +5,23 @@ const WAKA_JSON_PATH = path.join(process.cwd(), 'waka.json');
 const OUTPUT_SVG_PATH = path.join(process.cwd(), 'waka.svg');
 
 if (!fs.existsSync(WAKA_JSON_PATH)) {
-  console.error('waka.json not found!');
-  process.exit(1);
+  console.log('waka.json not found! Writing blank SVG.');
+  fs.writeFileSync(OUTPUT_SVG_PATH, '<svg xmlns="http://www.w3.org/2000/svg" width="500" height="100"></svg>');
+  process.exit(0);
 }
 
-const raw = fs.readFileSync(WAKA_JSON_PATH, 'utf-8');
+const raw = fs.readFileSync(WAKA_JSON_PATH, 'utf-8').trim();
+if (!raw) {
+  console.log('waka.json is empty. Writing blank SVG.');
+  fs.writeFileSync(OUTPUT_SVG_PATH, '<svg xmlns="http://www.w3.org/2000/svg" width="500" height="100"></svg>');
+  process.exit(0);
+}
+
 const waka = JSON.parse(raw).data;
 
 if (!waka || !waka.languages || waka.languages.length === 0 || waka.total_seconds === 0) {
-  console.log('No coding activity found. Skipping SVG generation.');
-  fs.writeFileSync(OUTPUT_SVG_PATH, '');
+  console.log('No coding activity found. Writing blank SVG.');
+  fs.writeFileSync(OUTPUT_SVG_PATH, '<svg xmlns="http://www.w3.org/2000/svg" width="500" height="100"></svg>');
   process.exit(0);
 }
 
