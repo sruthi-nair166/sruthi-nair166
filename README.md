@@ -61,5 +61,7 @@
 
 <img src="https://github.com/user-attachments/assets/13ef8dfa-af08-4129-addc-b15c1c8158d3" width="100%" />
 
-> "May your coffee stay warm☕ and your commits bug-free🖥️."
+<p align="center">
+  <em>"May your coffee stay warm☕ and your commits bug-free🖥️."</em>
+</p>
 
