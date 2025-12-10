@@ -46,7 +46,7 @@
 
 <div style="display: flex; gap: 20px;">
   <img src="https://raw.githubusercontent.com/sruthi-nair166/github-stats-terminal-style/master/github_stats.svg" width="400px" />
-  <div style="flex: 1 1 0; min-width: 300px;">
+  <div style="max-width: 400px; overflow-x: auto;">
   <!--START_SECTION:waka-->
 
 ```txt
