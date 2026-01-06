@@ -2,32 +2,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="500" height="260" font-family="Fira Code, Courier New, monospace">
   <rect width="100%" height="100%" fill="#0d1117" />
   <g fill="#FFF" font-size="14">
-    <text x="0" y="22" font-weight="700">From: 09 December 2025 - To: 04 January 2026</text>
-    <text x="0" y="44">Total Time: 58 hrs 38 mins</text>
+    <text x="0" y="22" font-weight="700">From: 09 December 2025 - To: 05 January 2026</text>
+    <text x="0" y="44">Total Time: 60 hrs 51 mins</text>
   </g>
   <rect x="180" y="66" width="270" height="14" fill="#0d1117" rx="3" ry="3"/>
   <text x="0" y="76" font-size="14" fill="#FFF">JavaScript        </text>
   <text x="120" y="76" font-size="14" fill="#FFF">25 hrs 49 mins</text>
   <text x="186" y="76" font-size="14" fill="#FFF">████████████░░░░░░░░░░░░░░░░</text>
-  <text x="456" y="76" font-size="14" fill="#FFF">44.04 %</text>
+  <text x="456" y="76" font-size="14" fill="#FFF">42.45 %</text>
   <rect x="180" y="100" width="270" height="14" fill="#0d1117" rx="3" ry="3"/>
-  <text x="0" y="110" font-size="14" fill="#FFF">CSS               </text>
-  <text x="120" y="110" font-size="14" fill="#FFF">15 hrs 16 mins</text>
-  <text x="186" y="110" font-size="14" fill="#FFF">███████░░░░░░░░░░░░░░░░░░░░░</text>
-  <text x="456" y="110" font-size="14" fill="#FFF">26.04 %</text>
+  <text x="0" y="110" font-size="14" fill="#FFF">HTML              </text>
+  <text x="120" y="110" font-size="14" fill="#FFF">16 hrs 48 mins</text>
+  <text x="186" y="110" font-size="14" fill="#FFF">████████░░░░░░░░░░░░░░░░░░░░</text>
+  <text x="456" y="110" font-size="14" fill="#FFF">27.62 %</text>
   <rect x="180" y="134" width="270" height="14" fill="#0d1117" rx="3" ry="3"/>
-  <text x="0" y="144" font-size="14" fill="#FFF">HTML              </text>
-  <text x="120" y="144" font-size="14" fill="#FFF">14 hrs 48 mins</text>
+  <text x="0" y="144" font-size="14" fill="#FFF">CSS               </text>
+  <text x="120" y="144" font-size="14" fill="#FFF">15 hrs 28 mins</text>
   <text x="186" y="144" font-size="14" fill="#FFF">███████░░░░░░░░░░░░░░░░░░░░░</text>
-  <text x="456" y="144" font-size="14" fill="#FFF">25.24 %</text>
+  <text x="456" y="144" font-size="14" fill="#FFF">25.43 %</text>
   <rect x="180" y="168" width="270" height="14" fill="#0d1117" rx="3" ry="3"/>
   <text x="0" y="178" font-size="14" fill="#FFF">Markdown          </text>
   <text x="120" y="178" font-size="14" fill="#FFF">2 hrs 15 mins</text>
   <text x="186" y="178" font-size="14" fill="#FFF">█░░░░░░░░░░░░░░░░░░░░░░░░░░░</text>
-  <text x="456" y="178" font-size="14" fill="#FFF">3.85 %</text>
+  <text x="456" y="178" font-size="14" fill="#FFF">3.71 %</text>
   <rect x="180" y="202" width="270" height="14" fill="#0d1117" rx="3" ry="3"/>
   <text x="0" y="212" font-size="14" fill="#FFF">JSON              </text>
   <text x="120" y="212" font-size="14" fill="#FFF">29 mins</text>
   <text x="186" y="212" font-size="14" fill="#FFF">░░░░░░░░░░░░░░░░░░░░░░░░░░░░</text>
-  <text x="456" y="212" font-size="14" fill="#FFF">0.83 %</text>
+  <text x="456" y="212" font-size="14" fill="#FFF">0.80 %</text>
 </svg>
