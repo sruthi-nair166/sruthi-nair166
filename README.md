@@ -1,7 +1,7 @@
 ![readme_header](https://github.com/user-attachments/assets/d16ad100-2ff2-42e2-adfc-307433a0ca16)<br/>
 
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=orbit&size=30&pause=1000&color=D326FF&center=true&vCenter=true&width=600&lines=Frontend+Developer;UI+focus;Design+->+Code;Exploring+QA"/></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=orbit&size=30&pause=1000&color=D326FF&center=true&vCenter=true&width=600&lines=Frontend+Developer;Design+->+Code;Exploring+QA"/></a>
 </p>
 
 # 👋 Hi there! 
