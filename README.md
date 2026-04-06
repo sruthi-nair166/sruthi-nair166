@@ -1,7 +1,7 @@
 ![readme_header](https://github.com/user-attachments/assets/d16ad100-2ff2-42e2-adfc-307433a0ca16)<br/>
 
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=orbit&size=30&pause=1000&color=D326FF&center=true&vCenter=true&width=600&lines=Frontend+Developer;Design+->+Code;"/></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=orbit&size=30&pause=1000&color=D326FF&center=true&vCenter=true&width=600&lines=UI+Developer;Frontend+Developer;Design+->+Code;"/></a>
 </p>
 
 # 👋 Hi there! 
@@ -34,10 +34,7 @@
   <img src="https://custom-icon-badges.demolab.com/badge/Visual%20Studio-5C2D91.svg?&logo=visualstudio&logoColor=white" height="20" style="vertical-align:middle;" />
   <img src="https://img.shields.io/badge/Firebase-FF9800?logo=Firebase&logoColor=white" height="20" style="vertical-align:middle;" />
 </p>
-<p>
-  <strong>🔍 Learning:</strong>
-  <img src="https://img.shields.io/badge/Testing_Fundamentals-4CAF50?style=flat&logoColor=white" height="20" style="vertical-align:middle;" />
-</p>
+
 <br/>
 
 ## 📊 GitHub Stats
