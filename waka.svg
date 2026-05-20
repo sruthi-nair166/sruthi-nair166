@@ -2,14 +2,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="500" height="260" font-family="Fira Code, Courier New, monospace">
   <rect width="100%" height="100%" fill="#0d1117" />
   <g fill="#FFF" font-size="14">
-    <text x="0" y="22" font-weight="700">From: 09 December 2025 - To: 17 May 2026</text>
-    <text x="0" y="44">Total Time: 270 hrs 12 mins</text>
+    <text x="0" y="22" font-weight="700">From: 09 December 2025 - To: 18 May 2026</text>
+    <text x="0" y="44">Total Time: 270 hrs 16 mins</text>
   </g>
   <rect x="180" y="66" width="270" height="14" fill="#0d1117" rx="3" ry="3"/>
   <text x="0" y="76" font-size="14" fill="#FFF">JavaScript        </text>
-  <text x="120" y="76" font-size="14" fill="#FFF">183 hrs 38 mins</text>
+  <text x="120" y="76" font-size="14" fill="#FFF">183 hrs 42 mins</text>
   <text x="186" y="76" font-size="14" fill="#FFF">███████████████████░░░░░░░░░</text>
-  <text x="456" y="76" font-size="14" fill="#FFF">68.67 %</text>
+  <text x="456" y="76" font-size="14" fill="#FFF">68.68 %</text>
   <rect x="180" y="100" width="270" height="14" fill="#0d1117" rx="3" ry="3"/>
   <text x="0" y="110" font-size="14" fill="#FFF">HTML              </text>
   <text x="120" y="110" font-size="14" fill="#FFF">37 hrs 15 mins</text>
