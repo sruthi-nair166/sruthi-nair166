@@ -28,7 +28,7 @@
 </p>
 <p>
   <strong>🧰 Tools:</strong>
-  <img src="https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white" height="20" style="vertical-align:middle;" />
+  <img src="https://img.shields.io/badge/Figma-000000?logo=figma&logoColor=white" height="20" style="vertical-align:middle;" />
   <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" height="20" style="vertical-align:middle;" />
   <img src="https://custom-icon-badges.demolab.com/badge/Visual%20Studio-5C2D91.svg?&logo=visualstudio&logoColor=white" height="20" style="vertical-align:middle;" />
 </p>
