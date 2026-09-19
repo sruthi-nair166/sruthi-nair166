@@ -1,16 +1,16 @@
 ![readme_header](https://github.com/user-attachments/assets/d16ad100-2ff2-42e2-adfc-307433a0ca16)<br/>
 
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=orbit&size=30&pause=1000&color=D326FF&center=true&vCenter=true&width=600&lines=UI+Developer;Frontend+Developer;Design+->+Code;"/></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=orbit&size=30&pause=1000&color=D326FF&center=true&vCenter=true&width=600&lines=;Web+Designer;UI Developer;UI/UX Designer;Design+->+Code;"/></a>
 </p>
 
 # 👋 Hi there! 
 
 ## About Me
 <br/>
-💾 Exploring code, testing, and everything in between<br/>
+💾 Designing clean, intuitive interfaces with a focus on usability<br/>
 🎮 Lover of clean UI, organized layouts, and tiny worlds<br/>
-🕹️  Slowly leveling up my skills one project at a time
+🕹️ Building and learning through projects, one interface at a time
 <br/>
 <br/>
 
